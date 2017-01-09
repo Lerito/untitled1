@@ -21,7 +21,7 @@ def fullfil(x):
             return result
 
 if __name__ == "__main__":
-print(chr(1000))
+    print(chr(1000))
 cities = {1 : "Москва", 2: "Санкт-Петербург" , 3: "Пермь", 4 : "Омск", 5 : "Екатеринбург", 6 : "Тюмень", 7 : "Ижевск"}
 stemmer = RussianStemmer()
 s1 = list(stemmer.stem("Москва"))
